@@ -1,5 +1,5 @@
 // This API endpoint will let users POST data to add records and GET to retrieve
-import orders from "./orders.json";
+import orders from "./Orders.json";
 import { writeFile } from "fs/promises";
 
 function get(req, res) {
